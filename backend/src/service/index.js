@@ -1,3 +1,4 @@
+const user = require('./user');
 const client = require('./client');
 const medicament = require('./medicament');
 const reteta = require('./reteta');
@@ -7,4 +8,8 @@ const bon = require('./bon');
 
 module.exports = {
   user,
+  medicament,
+  reteta,
+  vanzare,
+  bon
 };
